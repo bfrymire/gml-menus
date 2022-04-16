@@ -14,8 +14,8 @@
   "soundFile": "snd_background",
   "duration": 0.0,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "GML Menu Examples",
+    "path": "folders/Sounds/GML Menu Examples.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_background",
