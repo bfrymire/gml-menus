@@ -75,10 +75,10 @@ menu_pages = [
 ];
 
 var i = 0;
-var array_len = array_length_1d(menu_pages);
-repeat (array_len) {
+var _len = array_length(menu_pages);
+repeat (_len) {
 	menu_option[i] = 0;
-	i++;
+	++i;
 }
 
 inputting = false;

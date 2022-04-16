@@ -17,7 +17,7 @@ if (inputting) {
 			if (hinput != 0) {
 				// TODO: audio
 				ds_grid[# 3, menu_option[page]] += hinput;
-				ds_grid[# 3, menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, array_length_1d(ds_grid[# 4, menu_option[page]]) - 1);
+				ds_grid[# 3, menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, array_length(ds_grid[# 4, menu_option[page]]) - 1);
 			}
 			break;
 			

@@ -66,7 +66,7 @@ repeat (ds_height) {
 			}
 			
 			// only show >> if we have an option to the right
-			if (current_val == array_length_1d(ds_grid[# 4, yy]) - 1) {
+			if (current_val == array_length(ds_grid[# 4, yy]) - 1) {
 				right_shift = "";
 			}
 			
