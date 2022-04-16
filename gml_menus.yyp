@@ -6,6 +6,7 @@
     {"id":{"name":"create_menu_page","path":"scripts/create_menu_page/create_menu_page.yy",},"order":0,},
     {"id":{"name":"resume_game","path":"scripts/resume_game/resume_game.yy",},"order":5,},
     {"id":{"name":"exit_game","path":"scripts/exit_game/exit_game.yy",},"order":4,},
+    {"id":{"name":"enum_menu_element_type","path":"scripts/enum_menu_element_type/enum_menu_element_type.yy",},"order":1,},
     {"id":{"name":"change_volume","path":"scripts/change_volume/change_volume.yy",},"order":2,},
     {"id":{"name":"change_difficulty","path":"scripts/change_difficulty/change_difficulty.yy",},"order":0,},
     {"id":{"name":"change_resolution","path":"scripts/change_resolution/change_resolution.yy",},"order":1,},
