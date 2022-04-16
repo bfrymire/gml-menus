@@ -1,8 +1,12 @@
 {
-    "id": "e01ce300-87a5-4237-9123-1fb71d836abe",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "resume_game",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "resume_game",
+  "tags": [],
+  "resourceType": "GMScript",
 }

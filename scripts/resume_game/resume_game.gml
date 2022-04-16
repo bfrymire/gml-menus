@@ -1,1 +1,5 @@
-show_debug_message("resume game");
+function resume_game() {
+	show_debug_message("resume game");
+
+
+}
