@@ -54,7 +54,7 @@ repeat (ds_height) {
 	
 	switch (ds_grid[# 1, yy]) {
 		
-		case menu_element_type.shift:
+		case MENU_ELEMENT_TYPE.SHIFT:
 			var current_val = ds_grid[# 3, yy];
 			var current_array = ds_grid[# 4, yy];
 			var left_shift = "<< ";
@@ -79,7 +79,7 @@ repeat (ds_height) {
 			
 			break;
 			
-		case menu_element_type.slider:
+		case MENU_ELEMENT_TYPE.SLIDER:
 			var len = 64;
 			var current_val = ds_grid[# 3, yy];
 			var current_array = ds_grid[# 4, yy];
@@ -94,7 +94,7 @@ repeat (ds_height) {
 			draw_text_color(rtx + (len * 1.2), rty, string(floor(circle_pos * 100)) + "%", c, c, c, c, 1);
 			break;
 			
-		case menu_element_type.toggle:
+		case MENU_ELEMENT_TYPE.TOGGLE:
 			var current_val = ds_grid[# 3, yy];
 			var c1;
 			var c2;
@@ -114,7 +114,7 @@ repeat (ds_height) {
 			draw_text_color(rtx + 32, rty, "OFF", c2, c2, c2, c2, 1);
 			break;
 			
-		case menu_element_type.input:
+		case MENU_ELEMENT_TYPE.INPUT:
 			var current_val = ds_grid[# 3, yy];
 			var string_val;
 			switch (current_val) {
