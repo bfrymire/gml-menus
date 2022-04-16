@@ -11,14 +11,14 @@
     "name": "audiogroup_sound_effects",
     "path": "audiogroups/audiogroup_sound_effects",
   },
-  "soundFile": "sound_menu_selection",
+  "soundFile": "snd_beep",
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_menu_selection",
+  "name": "snd_beep",
   "tags": [],
   "resourceType": "GMSound",
 }

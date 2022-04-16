@@ -8,17 +8,17 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_sound_effects",
-    "path": "audiogroups/audiogroup_sound_effects",
+    "name": "audiogroup_music",
+    "path": "audiogroups/audiogroup_music",
   },
-  "soundFile": "sound_beep",
+  "soundFile": "snd_background",
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_beep",
+  "name": "snd_background",
   "tags": [],
   "resourceType": "GMSound",
 }
